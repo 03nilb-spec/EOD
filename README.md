@@ -33,7 +33,7 @@ Create `.env.local`:
 
 ```bash
 GEMINI_API_KEY=your_gemini_api_key_here
-GEMINI_MODEL=gemini-1.5-flash
+GEMINI_MODEL=gemma-4-26b-a4b-it,gemma-4-31b-it
 ```
 
 The app still works without the key by using a local structured report fallback.
